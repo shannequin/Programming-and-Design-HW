@@ -25,7 +25,7 @@ function getInput(){
 //This function translate telephone number.
 function translate(telNum){
 	var alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-	var num = ["2", "2", "2", "3", "3", "3", "4", "4", "4", "5", "5", "5", "6", "6", "6", "7", "7", "7", "8", "8", "8", "9", "9", "9", "9"];
+
 	
 	//For Loop to check each digit.
 	for(index = 0; index < 12; index++){
