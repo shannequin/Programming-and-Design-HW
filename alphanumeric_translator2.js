@@ -31,7 +31,7 @@ function getInput(){
 	var input = prompt("Enter a 10-digit number. (ex: XXX-XXX-XXXX)")
 	
 	//While Loop to validate input.
-	while(input.length != 12 && input.charAt(3) != "-" && input.charAt(7) != "-"){
+	while(input.length != 12 || input.charAt(3) != "-" || input.charAt(7) != "-"){
 		alert("Not a valid phone number.");
 		input = prompt("Enter a 10-digit number. (ex: XXX-XXX-XXXX)");
 	};
